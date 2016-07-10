@@ -3,7 +3,7 @@
 首先感谢 http://www.cnblogs.com/sprite_bx/archive/2009/12/07/1618424.html
 Lisp中文 http://acl.readthedocs.io/en/latest/zhCN/preface-cn.html
 
-## Project 1
+## Project 1 基本操作
 - 编写一段普通的文章, 然后保存下来, PS: 写这句话的时候, 我还不知道怎么保存和...退出T_T.
 - C 就是Ctrl, M 就是META, 但是Mac上没有META, 所以实际上M是ESC. what the fuck?!!
 - 记下以下几个快捷键
@@ -30,8 +30,31 @@ Lisp中文 http://acl.readthedocs.io/en/latest/zhCN/preface-cn.html
 - 以下是非常危险的操作
   - C + k 向右删除至行尾
   - M + k 向右删除到句号, 句尾
-- 希望上面没有写个十几遍, 下面是补救措施
+- 希望上面没有写个十几遍, 下面是补救措施(撤销)
   - C + x u = C + _ = C + / 撤销上一步操作, PS. 这句应放在删除前面教!!不能我一个人被坑.
+  - 问题来了, 如何Redo ?
 - 更高级别的移动光标操作
   - C + u 设定参数给后面的命令, 比如 C + u 8 C + f 表示 光标右移8个字符, C + u 20 C + n
-  - to be continue ...
+  - 一个比较特殊的案例: C + u 3 C + v 并不是向下翻三页, 而是整个屏幕向上翻三行, 试试? 据说这样比较有意义.
+  - C + u [数字] 相当于 M + [数字], 这样就可以少按几个按键
+- Yank
+  - 先解释以下, Yank是用来存储被删除的内容. 当超过**一个**字符被删除时, 将会被放入到Yank中. 试试? 
+  - 了解一些Yank的高级知识: Yank Ring, Ring是一个环状解构, killed的数据被依次放入Ring中, M + y 表示要求换上一个被删除的内容, 试一下.
+  - M + y 只能跟在 C + y 后面. 我并不知道, 这个Ring到底有多大, 可以存多少被删除的数据.
+  - 似乎已经知道了如何cut then paste 内容了, 虽然这个方法简单粗暴, 但看(shi)上(ji)去(shang)有(fei)点(chang)笨, 那么有没有更好的办法?
+  - 答案是**有**! 不过超麻烦! PS. 实际上这并不能作为一个知识点.
+  - How to copy and paste? 
+    - step 1: M + @ 设置标记
+    - step 2: 移动光标
+    - M + w 完成范围选择
+    - OK, let's try
+- 最后一个基本命令: C + g 取消仍未完成的命令
+
+## Project 2 文档操作
+- 读档: Emacs术语叫 finding a file
+  - C + x C + f 打开文档
+  - C + x C + s 保存当前文档
+  - C + x s 保存所有的文档
+  - C + x i 将目标文档插入当前文档
+- 视窗: 将窗口划分为多个区域, 每个区域都是一个视窗
+  - to be continue...
