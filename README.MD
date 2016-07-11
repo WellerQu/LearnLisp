@@ -57,4 +57,29 @@ Lisp中文 http://acl.readthedocs.io/en/latest/zhCN/preface-cn.html
   - C + x s 保存所有的文档
   - C + x i 将目标文档插入当前文档
 - 视窗: 将窗口划分为多个区域, 每个区域都是一个视窗
-  - to be continue...
+  - 分割当前视窗
+    - C + x 0 关闭当前视窗
+    - C + x 1 关闭除当前视窗以外的任何视窗
+    - C + x 2 将当前视窗分割成上下部分
+    - C + x 3 将当前视窗分割成左右部分
+    - C + x 4 ? 有啥用?
+    - C + x 5 ? 没啥用?
+  - 多档编辑
+    - C + x C + b 打开Buffer List. 这个Buffer List是用来存放emacs打开的文档.
+    - C + x b 输入地址, 打开目标buffer
+    - C + x o 切换到另一个视窗
+    - 如果不知道如何关掉Buffer List, 可以试试 C + x o, C + x 0
+- 保存与退出
+  - C + x C + s 表示保存当前文档
+  - C + x s 表示保存所有打开的文档
+  - C + z 挂起当前emacs实例
+  - fg %emacs 可以唤醒最近一次挂起的emacs
+  - C + x C + c 表示关闭当前emacs实例
+  - emacs每过一段时间都会自动保存一次, auto saving...done.
+
+## Project 3 编辑模式
+- 切换模式 M + x
+- 普通编辑模式 Fundamental (默认模式)
+- 文本编辑模式 Text
+- 还有很多其他模式,暂时不关心;
+- to be continue...
