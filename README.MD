@@ -1,7 +1,6 @@
 # Lisp and emacs
 
-首先感谢 http://www.cnblogs.com/sprite_bx/archive/2009/12/07/1618424.html
-Lisp中文 http://acl.readthedocs.io/en/latest/zhCN/preface-cn.html
+> 首先感谢这位[博主](http://www.cnblogs.com/sprite_bx/archive/2009/12/07/1618424.html), 然后是[Lisp](http://acl.readthedocs.io/en/latest/zhCN/preface-cn.html)中文 
 
 ## Project 1 基本操作
 - 编写一段普通的文章, 然后保存下来, PS: 写这句话的时候, 我还不知道怎么保存和...退出T_T.
