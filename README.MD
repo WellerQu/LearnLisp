@@ -82,4 +82,11 @@ Lisp中文 http://acl.readthedocs.io/en/latest/zhCN/preface-cn.html
 - 普通编辑模式 Fundamental (默认模式)
 - 文本编辑模式 Text
 - 还有很多其他模式,暂时不关心;
-- to be continue...
+
+## Project 4 高级功能
+- 设置read-only, C + x C + q, 这是一个toggle命令. 意思就是再按一次, 就解除了read-only
+- 搜索, 这简直是必须掌握的功能啊!!!啊!!!!
+  - C + s 向前(forward)做增量查找;
+  - C + r 向后(backward)做增量查找;
+  - 此时按C + g, 游标回到原来的位置, 按Enter(回车)则留在当前位置.
+  - 是时候试试了.
