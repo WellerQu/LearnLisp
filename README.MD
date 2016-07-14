@@ -89,3 +89,13 @@
   - C + r 向后(backward)做增量查找;
   - 此时按C + g, 游标回到原来的位置, 按Enter(回车)则留在当前位置.
   - 是时候试试了.
+- 更复杂的查找
+  - M + x  search-forward 向下查找
+  - M + x  search-backward 向上查找
+  - 上面两种方式, 并不具备增量查找的能力, 也不具备让光标回到查询前位置的能力, 目前为止, 我依然认为这个功能很废柴! 讲道理, 难道不废柴?!
+  - M + x re-search-forward 用正则表达式来做向下查找, 先试试有没有 M + x re-search-backward, 果然有! 略机智T_T
+- 替换
+  - M + x replace SPC... PS: SPC 相当于tab, 自动补全命令, 连按两下则有Panel出现.
+## Project 4
+- Emacs的配置文件
+  
