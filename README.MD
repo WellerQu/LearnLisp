@@ -52,7 +52,7 @@
 
 ## Project 2 文档操作
 - 读档: Emacs术语叫 finding a file
-  - C + x C + f 打开文档
+  - C + x C + f 打开文档, 如果打开的文档不存在, 将被创建出来
   - C + x C + s 保存当前文档
   - C + x s 保存所有的文档
   - C + x i 将目标文档插入当前文档
@@ -101,3 +101,4 @@
 ## Project 4
 - Emacs的配置文件
   - ~/.emacs 就是配置文件, 如果没有, 自行创建
+  - to be continue...
