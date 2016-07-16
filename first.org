@@ -1,0 +1,34 @@
+#+SEQ_TODO: TODO(T!) |  DONE(D!) CANCELED(C@/!)
+
+* 文档结构							      :heheh:
+  1) 标题
+     1. 用星号'*'定义标题,星号的数量决定了标题的等级.星号越多等级越低,共八级.
+     2. 
+  2) 视图循环
+     1. Tab 展开或折叠标题
+
+
+** fwefwef 							    :wer:wer:
+*** 123
+** waefw
+   awefaw
+** CANCELED fwaefwefweawesdfwf						:abc:
+   - State "CANCELED"   from "DONE"       [2016-07-16 Sat 18:28] \\
+     awefwe
+   - State "DONE"       from "CANCELED"   [2016-07-16 Sat 18:28]
+   - State "TODO"       from ""           [2016-07-16 Sat 17:57]
+   - State "TODO"       from "DONE"       [2016-07-16 Sat 17:57]
+   - State "DONE"       from "CANCELED"   [2016-07-16 Sat 17:57]
+   - State "DONE"       from "CANCELED"   [2016-07-16 Sat 17:57]
+   - State "CANCELED"   from "DONE"       [2016-07-16 Sat 17:56] \\
+     就是不想做了
+   - State "DONE"       from "TODO"       [2016-07-16 Sat 17:56]
+   - State "TODO"       from ""           [2016-07-16 Sat 17:56]
+   - awefsdfawe
+   - qrwefwef
+     1. afwefawefwef
+     2. awefxvaewfawfwe
+   - [X] werqwfawef
+   - [X] dfawefawef[2/2]awefawef[100%]
+     1. [X] awefawef
+     2. [X] dawefwef<2016-07-16 Sat>sdafeawfe<2016-07-16 Sat>
