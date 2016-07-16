@@ -111,73 +111,49 @@
   - to be continue... PS.现在就像编程? Too young to simple!
 
 ## Project 6 缓冲管理
-   > C - x C - b 
-
-   打开Buffer Panel
 
 
-   RET 打开选中的Buffer
+| 按键 | 效果 |
+| --- | --- |
+| C - x C - b | 打开Buffer Panel |
+| RET | 打开选中的Buffer |
+| C - u C - x C - b | 排除掉Emacs的缓冲,推荐一般情况下就使用这个查看缓冲. |
+| C - x k bufferName | 关闭指定的缓冲 |
+| kill-some-buffers | Emacs会逐个询问是否关闭,回答yes/no.'逐个'的意思是,包括emacs的缓冲. |
+| clean-buffer-list | 关掉三天都没用过的缓冲 |
+| C - x C - q | 切换是否只读 |
+| C - u M - g M - g num | 我不想记这个,好难受 |
+| rename-buffer | 重命名一个缓冲 |
+| rename-uniquely | 重命名当前缓冲,并在名字后加一个数字使其唯一 |
+| view-buffer | 只读模式打开一个缓冲,按q退出view模式 |
+ 
 
    
    需要特别说的是, CRM列和Buffer列, 先说简单的Buffer列
    Buffer记录了所有缓冲的名字,其中被*name*的缓冲是Emacs的,最好不要改它们.
    接着说CRM.CRM展开的意思就是Current/ReadOnly/Modify,分别标识当前(.),只读(%)和已修改(*)
 
-   > C - u C - x C - b
-
-   排除掉Emacs的缓冲,推荐一般情况下就使用这个查看缓冲.
-
-   > C - x k bufferName
-
-   关闭指定的缓冲
-
-   > kill-some-buffers
-
-   Emacs会逐个询问是否关闭,回答yes/no.'逐个'的意思是,包括emacs的缓冲.
-
-   > clean-buffer-list
-
-   关掉三天都没用过的缓冲
-
-   > C - x C - q 
-
-   切换是否只读
-
-   > C - u M - g M - g num
-
-   我不想记这个,好难受
-
-   > rename-buffer
-
-   重命名一个缓冲
-
-   > rename-uniquely 
-
-   重命名当前缓冲,并在名字后加一个数字使其唯一
-
-   > view-buffer
-
-   只读模式打开一个缓冲,按q退出view模式.
-
 
    更多buffer-menu的操作
 
-   | 按键 | 效果 | 备注 |
-   | --- | --- | --- |
-   | n | 下一项 | |
-   | p | 上一项 | |
-   | d或k | 标记删除 | |
-   | C - d | 标记删除 | |
-   | s | 标记保存 | |
-   | x | 执行删除或保存 | |
-   | u | 取消标记,并移动到下一项 | |
-   | backspace | 取消标记,并移动到上一项 | |
-   | f或RET | 打开缓冲 | |
-   | o | 打开缓冲,并选中视窗 | |
-   | C - o | 打开缓冲,并不选中视窗 | |
-   | m | 标记缓冲要在新视窗显示 | |
-   | v | 显示标记的缓冲 | |
-   | q | 退出Buffer Menu | |
+
+| 按键 | 效果 | 备注 |
+| --- | --- | --- |
+| n | 下一项 | |
+| p | 上一项 | |
+| d或k | 标记删除 | |
+| C - d | 标记删除 | |
+| s | 标记保存 | |
+| x | 执行删除或保存 | |
+| u | 取消标记,并移动到下一项 | |
+| backspace | 取消标记,并移动到上一项 | |
+| f或RET | 打开缓冲 | |
+| o | 打开缓冲,并选中视窗 | |
+| C - o | 打开缓冲,并不选中视窗 | |
+| m | 标记缓冲要在新视窗显示 | |
+| v | 显示标记的缓冲 | |
+| q | 退出Buffer Menu | |
+
 
 ## Project 7 Org-mode
 
