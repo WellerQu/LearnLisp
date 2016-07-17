@@ -1,34 +1,43 @@
-#+SEQ_TODO: TODO(T!) |  DONE(D!) CANCELED(C@/!)
-
-* 文档结构							      :heheh:
-  1) 标题
-     1. 用星号'*'定义标题,星号的数量决定了标题的等级.星号越多等级越低,共八级.
-     2. 
-  2) 视图循环
-     1. Tab 展开或折叠标题
+#+SEQ_TODO: TODO(t!) | DOING(d!) DONE(D@/!) CANCELED(c@/!)
 
 
-** fwefwef 							    :wer:wer:
-*** 123
-** waefw
-   awefaw
-** CANCELED fwaefwefweawesdfwf						:abc:
-   - State "CANCELED"   from "DONE"       [2016-07-16 Sat 18:28] \\
-     awefwe
-   - State "DONE"       from "CANCELED"   [2016-07-16 Sat 18:28]
-   - State "TODO"       from ""           [2016-07-16 Sat 17:57]
-   - State "TODO"       from "DONE"       [2016-07-16 Sat 17:57]
-   - State "DONE"       from "CANCELED"   [2016-07-16 Sat 17:57]
-   - State "DONE"       from "CANCELED"   [2016-07-16 Sat 17:57]
-   - State "CANCELED"   from "DONE"       [2016-07-16 Sat 17:56] \\
-     就是不想做了
-   - State "DONE"       from "TODO"       [2016-07-16 Sat 17:56]
-   - State "TODO"       from ""           [2016-07-16 Sat 17:56]
-   - awefsdfawe
-   - qrwefwef
-     1. afwefawefwef
-     2. awefxvaewfawfwe
-   - [X] werqwfawef
-   - [X] dfawefawef[2/2]awefawef[100%]
-     1. [X] awefawef
-     2. [X] dawefwef<2016-07-16 Sat>sdafeawfe<2016-07-16 Sat>
+* teste
+** efwewaef
+* TODO testwef							  :awefwaefw:
+  - State "TODO"       from "CANCELED"   [2016-07-17 日 12:24]
+** CANCELED [#C] etsesafw
+   - State "CANCELED"   from "DONE"       [2016-07-17 日 12:33] \\
+     awefwef
+   - State "DONE"       from "DOING"      [2016-07-17 日 12:32] \\
+     sfeafewf
+   - State "DOING"      from "TODO"       [2016-07-17 日 12:32]
+   - State "TODO"       from ""           [2016-07-17 日 12:32]
+   - wefawe
+     - 234234
+   - fawefw
+     1. fawefawef
+*** DONE [#A] teset
+    - State "DONE"       from ""           [2016-07-17 日 12:34] \\
+      fawefwef
+    - fawef
+    - awefawef
+    - afwaefwef
+    - afwfwef :: fawefawef
+    - [X] awefipwejfiaw [100%][3/3]
+      - [X] hwefipwef
+      - [X] awefiawjeif
+      - [X] afeawef
+* CANCELED fwefiw; [2/3][66%]
+  DEADLINE: <2016-07-22 五> SCHEDULED: <2016-07-19 二>
+  - State "CANCELED"   from "DONE"       [2016-07-17 日 12:49] \\
+    afwefwef
+  - State "DONE"       from "TODO"       [2016-07-17 日 12:41] \\
+    awefwef
+  - State "TODO"       from ""           [2016-07-17 日 12:39]
+  - [X] fawef
+  - [X] awefawef
+  - [ ] safwipowjefoi [2016-07-27 三]
+  - sfawef [2016-07-28 四]  <2016-07-17 日>
+  - <2016-07-17 日>-<2016-07-22 五>
+  - [ ] dfawefwef
+  - [ ] afwejipaiwefj
