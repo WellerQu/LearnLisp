@@ -5,6 +5,7 @@
 [博主:缓冲管理](http://www.cnblogs.com/robertzml/archive/2010/03/09/1680909.html),
 [博主:Org-mode](http://www.cnblogs.com/Open_Source/archive/2011/07/17/2108747.html#sec-1-3),
 [博主:任务管理](http://www.cnblogs.com/holbrook/archive/2012/04/14/2447754.html#sec-5),
+[博主:Org-mode](http://www.cnblogs.com/taosim/articles/3376130.html),
 然后是[Lisp](http://acl.readthedocs.io/en/latest/zhCN/preface-cn.html)中文 
 
 ## Project 1 基本操作
