@@ -108,6 +108,7 @@
 
 ## Project 5 配置文件
 - Emacs的配置文件
+  - 可以参考[博文](http://shouce.jb51.net/freebsd-developers-handbook/emacs.html)
   - ~/.emacs 就是配置文件, 如果没有, 自行创建,  这相当于vim的.vimrc;
   - to be continue... PS.现在就像编程? Too young to simple!
 
